@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+
+        var viewController: FavoriteThingsViewController? = FavoriteThingsViewController()
+        var navigationController: UINavigationController? = UINavigationController(rootViewController: viewController)
+        self.window!.rootViewController = navigationController
         
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
