@@ -11,6 +11,7 @@
 		71C56FC919A8E4F900C7B895 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C56FC819A8E4F900C7B895 /* Images.xcassets */; };
 		71C56FD519A8E4F900C7B895 /* FavoriteThings_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C56FD419A8E4F900C7B895 /* FavoriteThings_SwiftTests.swift */; };
 		71C56FDF19A8E52400C7B895 /* FavoriteThingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C56FDE19A8E52400C7B895 /* FavoriteThingsViewController.swift */; };
+		71C56FE119A8E84000C7B895 /* FavoriteThingsTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C56FE019A8E84000C7B895 /* FavoriteThingsTableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		71C56FD319A8E4F900C7B895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71C56FD419A8E4F900C7B895 /* FavoriteThings_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThings_SwiftTests.swift; sourceTree = "<group>"; };
 		71C56FDE19A8E52400C7B895 /* FavoriteThingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteThingsViewController.swift; sourceTree = "<group>"; };
+		71C56FE019A8E84000C7B895 /* FavoriteThingsTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteThingsTableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				71C56FC619A8E4F900C7B895 /* AppDelegate.swift */,
 				71C56FDE19A8E52400C7B895 /* FavoriteThingsViewController.swift */,
+				71C56FE019A8E84000C7B895 /* FavoriteThingsTableViewDataSource.swift */,
 				71C56FC819A8E4F900C7B895 /* Images.xcassets */,
 				71C56FC419A8E4F900C7B895 /* Supporting Files */,
 			);
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C56FE119A8E84000C7B895 /* FavoriteThingsTableViewDataSource.swift in Sources */,
 				71C56FC719A8E4F900C7B895 /* AppDelegate.swift in Sources */,
 				71C56FDF19A8E52400C7B895 /* FavoriteThingsViewController.swift in Sources */,
 			);
